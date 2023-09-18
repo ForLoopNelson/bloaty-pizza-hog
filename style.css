@@ -1,0 +1,151 @@
+/* #D5FFB1,	rgb(213, 255, 177) #8BB468, 	rgb(139, 180, 104)  #FD3DA0, 	rgb(158, 25, 94) ,#9E195E,#FFA5D4,#D5FFB1,#8BB468,#FD3DA0 */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('imgs/fonts/INVADER.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
+
+.grease {
+  color: #fff;
+  font-size: 80px;
+}
+
+
+/* Custom styles for Navbar */
+.opacity-hover-off {
+  background-color: rgba(158, 25, 94,0.5) ;
+}
+
+.opacity-hover-off:hover {
+  background-color: rgba(158, 25, 94,1) ;
+}
+
+.navbar-nav .nav-link {
+  color: white ;
+  font-size: 2rem;  
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #FD3DA0 ;
+  color: black ;
+}
+
+.tablink {
+  text-decoration: none;
+}
+
+#contact {
+  background: #c6b0bc;
+}
+
+
+
+/* Hide on small screens */
+@media (max-width: 992px) {
+  #myNavbar {
+    display: none;
+  }
+}
+
+/* Custom styles for Header */
+.bg-img {
+  background-image: url('imgs/BloatlyPizzaHog14Cover.webp');
+  background-size:cover;
+  background-position:center top ;
+  min-height: 100vh;
+  color: black;
+}
+
+
+
+.btn {
+  min-width: 250px;
+}
+
+/*Custom styles for Menu box*/
+.btn.hover-btn:hover {
+  background-color: #D5FFB1;
+  color: #FD3DA0;
+  text-decoration: #FD3DA0;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+
+.hover-red:hover {
+  background-color: rgba(158, 25, 94, 0.461);
+  color: white;
+}
+
+.active-tab {
+  background-color: #9E195E;
+  color: white;
+}
+
+.border-dark {
+  border-color: dark-grey;
+}
+
+.badge {
+  padding: .6em .8em;
+}
+
+.small-tag {
+  padding: .3em .3em;
+}
+
+.bg-red {
+  background-color: red;
+  color: white;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.menu h1 {
+  color: black;
+}
+
+/* Custom CSS for greyscale images */
+.img-greyscale {
+  filter: grayscale(100%);
+}
+
+/*XL form boxes*/
+.extra-large {
+  height: 60px;
+  font-size: 1.8rem;
+}
+
+@media(max-width:820px) {
+   .bg-img {
+  background-image: url('imgs/BloatlyPizzaHog14Cover.webp');
+  background-size:cover;
+  background-position:center left ;
+  min-height: 100vh;
+  color: black;
+}
+  .grease {
+    margin-top: 25px;
+  font-size: 4rem;
+  font-weight: 600;
+}
+}
+
+/* For Phone */
+@media(max-width: 420px){
+ .bg-img {
+  background-image: url('imgs/BloatlyPizzaHog14Cover.webp');
+  background-size:cover;
+  background-position:center left 15% ;
+  min-height: 100vh;
+  color: black;
+}
+}
