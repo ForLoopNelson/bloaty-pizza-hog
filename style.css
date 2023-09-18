@@ -56,10 +56,30 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
   background-color: #FD3DA0;
   border: 2px solid #c6b0bc;
 }
+.char-reviews {
+ background-color: #D5FFB1;
+ text-align: center;
+ color: #000;
+ font-family: 'Roboto';
+ font-size: 2.2rem;
+ height: 30dvh;
+ margin: 15px 10px 0 10px;
+ padding: 20px 10px 0 10px;
+ border: 1px solid #FD3DA0;
+ border-radius: 5px;
+
+
+}
+
+.characters {
+  background: #c6b0bc;
+  margin-left: 120px;
+  height: 100%;
+}
 
 
 
-
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* Hide on small screens */
 @media (max-width: 992px) {
   #myNavbar {
@@ -75,7 +95,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
   min-height: 100vh;
   color: black;
 }
+.bg-gif {
+  background-image: url('imgs/bloatyWants.gif');
+  background-size:cover;
+  background-position:center top 90% ;
+  min-height: 100vh;
+  color: black;
+}
 
+/* .nav-gif  {
+  
+
+} */
 
 
 .btn {
@@ -140,7 +171,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
   font-size: 1.8rem;
 }
 
-@media(max-width:820px) {
+@media((min-width:421px) and (max-width:820px)) {
    .bg-img {
   background-image: url('imgs/BloatlyPizzaHog14Cover.webp');
   background-size:cover;
@@ -172,7 +203,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
 .dropdown-border {
   border: 2px solid #D5FFB1;
 }
+
+.bloaty {
+  height: 40vh;
+  width: 300px;
 }
+
+.characters {
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+
+.char-reviews {
+  font-size: 2rem;
+}
+}
+
+
 
 /* For Phone */
 @media(max-width: 420px){
@@ -182,5 +230,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
   background-position:center left 15% ;
   min-height: 100vh;
   color: black;
+}
+.characters {
+  margin-right: 140px;
+  height: 150px;
+}
+
+/* .bloaty {
+  height: 3rem;
+} */
+
+.char-reviews {
+  margin: 5px 70px 0 70px ;
+  font-size: 2em;
 }
 }
