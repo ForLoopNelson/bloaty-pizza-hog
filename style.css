@@ -234,6 +234,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
 .characters {
   margin-right: 140px;
   height: 150px;
+  overflow-x: auto;
 }
 
 /* .bloaty {
