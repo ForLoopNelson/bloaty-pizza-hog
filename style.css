@@ -71,11 +71,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
 
 }
 
-.characters {
+/* .characters {
   background: #c6b0bc;
   margin-left: 120px;
   height: 100%;
-}
+} */
 
 
 
@@ -103,10 +103,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
   color: black;
 }
 
-/* .nav-gif  {
-  
-
-} */
 
 
 .btn {
@@ -231,18 +227,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
   min-height: 100vh;
   color: black;
 }
-.characters {
+/* .characters {
   margin-right: 140px;
   height: 150px;
   overflow-x: auto;
-}
+} */
 
 /* .bloaty {
   height: 3rem;
 } */
 
-.char-reviews {
+/* .char-reviews {
   margin: 5px 70px 0 70px ;
   font-size: 2em;
-}
+} */
 }
