@@ -16,3 +16,7 @@ function openMenu(event, menuName) {
 }
 
 document.getElementById("mainLink").click(); // Auto-clicks the Pizza tab when the page loads
+
+// for mobile dropdown 
+ document.getElementById('feelTheGrease').addEventListener('click', function() {
+    document.querySelector('.dropdown-menu').classList.toggle('show'); }) 
