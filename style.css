@@ -229,6 +229,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "CustomFont", sans-serif}
   color: black;
 }
 
+.dropdown-menu-center {
+   left: 50% !important; 
+  transform: translateX(-50%); 
+  background: #c6b0bc;
+ border: 2px solid #D5FFB1;
+}
+.dropdown-item {
+   color: #000;
+   font-size: 30px;
+}
+
+.dropdown-border {
+  border: 2px solid #D5FFB1;
+}
+
 .grease-hide {
   display: none;
 }
