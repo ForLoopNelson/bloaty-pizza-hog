@@ -263,10 +263,8 @@ footer a  {
   background: #c6b0bc;
  margin-left: 69px;
   height: 150px;
-  /* overflow-x: auto; */
+  
 }
-
-
 
 .char-reviews {
   margin: 5px 20px 0 10px ;
@@ -283,5 +281,9 @@ footer a  {
   min-height: 100vh;
   color: black;
   background-color: #c6b0bc;
+}
+
+.fs-3 {
+  font-size: 20px !important;
 }
 }
